@@ -5,7 +5,7 @@ import zipfile
 import io
 
 st.set_page_config(page_title="Invoice Splitter", page_icon="📄", layout="centered")
-st.title("📄 Invoice Splitter by Invoice Number")
+st.title("📄 Standard Invoice Splitter")
 st.write("Upload a PDF containing invoices and split them into individual files named by invoice number.")
 
 uploaded_file = st.file_uploader("Upload your PDF invoice file", type="pdf")
