@@ -3,7 +3,7 @@ from PyPDF2 import PdfReader, PdfWriter
 import re
 from io import BytesIO
 
-st.title("Invoice Splitter by Invoice Number")
+st.title("Crawford Invoice Splitter")
 st.write("Upload a PDF, and this will split it into separate invoices based on the invoice number.")
 
 uploaded_file = st.file_uploader("Upload PDF", type="pdf")
