@@ -17,7 +17,7 @@ def extract_invoice_number_by_position(page):
     return None
 
 # UI
-st.title("📄 Invoice PDF Splitter")
+st.title("📄 Johnstone Invoice Splitter")
 st.write("Upload a PDF and split it into separate invoices based on invoice number.")
 
 uploaded_file = st.file_uploader("Upload PDF", type="pdf")
